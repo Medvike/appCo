@@ -10,15 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce0f1e4a-53d6-4a03-8bcb-43e992a37e69" name="Changes" comment="Test pushing to Taha's branch">
-      <change afterPath="$PROJECT_DIR$/assets/images/storyImg.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyAppBarComponents/appBarTitle.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyAppBarComponents/optionsButton.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBody.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomBarActionsRow.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyBottomEmojiButton.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyBottomReplyButton.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyBottomShareButton.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyBottomViewButton.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyReplyComponents/storyReplySheet.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyReplyComponents/storyReplySheetComponents/greyBackButton.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyReplyComponents/storyReplySheetComponents/storyReplyListChild.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/utils/TestFolderData/storyTestData.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/features/auth/splashScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/auth/splashScreen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/features/story/storyScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyScreen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/images.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/images.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/styles.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/styles.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +99,16 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

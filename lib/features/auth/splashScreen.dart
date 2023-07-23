@@ -18,13 +18,21 @@ class SplashScreen extends StatelessWidget {
               'XTeam',
               style: TextStyle(fontSize: 40),
             ),
-            SizedBox(height: 30,),
+            SizedBox(height: 100,),
             SizedBox(
-              width: 120,
+              width: 200,
               height: 40,
               child: ElevatedButton.icon(onPressed: (){
-                Get.offNamed(AppStringRoutes.storyScreen);
-              }, label: Text("GO"), icon: Icon(Icons.arrow_forward_ios)),
+                Get.toNamed(AppStringRoutes.storyScreen, parameters: {"story" : "me"});
+              }, label: Text("My story"), icon: Icon(Icons.arrow_forward_ios)),
+            ),
+            SizedBox(height: 40,),
+            SizedBox(
+              width: 200,
+              height: 40,
+              child: ElevatedButton.icon(onPressed: (){
+                Get.toNamed(AppStringRoutes.storyScreen, parameters: {"story" : "Lina"});
+              }, label: Text("Lina Story"), icon: Icon(Icons.arrow_forward_ios)),
             ),
           ],
         ),
