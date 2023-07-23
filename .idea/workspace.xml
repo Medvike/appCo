@@ -10,21 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce0f1e4a-53d6-4a03-8bcb-43e992a37e69" name="Changes" comment="Test pushing to Taha's branch">
-      <change afterPath="$PROJECT_DIR$/lib/features/auth/splashScreen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/githupOrders.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/manager/getXControllers/middelware.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/manager/getXControllers/services.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/manager/getXControllers/stringRoutes.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/routes.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/storyImg.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_co.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app_co.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/auth/splashScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/auth/splashScreen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/features/story/storyScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyScreen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/images.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/images.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/styles.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/styles.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,12 +57,13 @@
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/XTeam/appCo/lib/manager/getXControllers&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/XTeam/appCo/assets/images&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\XTeam\appCo\assets\images" />
       <recent name="C:\XTeam\appCo\lib\manager\getXControllers" />
       <recent name="C:\XTeam\appCo\lib" />
     </key>

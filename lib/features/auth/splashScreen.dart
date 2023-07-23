@@ -19,9 +19,13 @@ class SplashScreen extends StatelessWidget {
               style: TextStyle(fontSize: 40),
             ),
             SizedBox(height: 30,),
-            ElevatedButton.icon(onPressed: (){
-              Get.offNamed(AppStringRoutes.storyScreen);
-            }, label: Text("GO"), icon: Icon(Icons.arrow_forward_ios)),
+            SizedBox(
+              width: 120,
+              height: 40,
+              child: ElevatedButton.icon(onPressed: (){
+                Get.offNamed(AppStringRoutes.storyScreen);
+              }, label: Text("GO"), icon: Icon(Icons.arrow_forward_ios)),
+            ),
           ],
         ),
       ),

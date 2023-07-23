@@ -1,6 +1,6 @@
-import 'package:app_co/features/auth/splashScreen.dart';
 import 'package:app_co/manager/getXControllers/services.dart';
 import 'package:app_co/routes.dart';
+import 'package:app_co/utils/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -16,9 +16,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          colorScheme: ColorScheme.fromSeed(seedColor: MyColors.green),
           useMaterial3: true,
+        fontFamily: "Inter"
       ),
       getPages: routes,
     );
