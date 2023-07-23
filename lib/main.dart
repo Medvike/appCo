@@ -12,7 +12,10 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('Taha\'s Branch'),
+          child: Text(
+            'XTeam',
+            style: TextStyle(fontSize: 40),
+          ),
         ),
       ),
     );
