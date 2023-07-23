@@ -7,7 +7,11 @@ class StoryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+      appBar: AppBar(
+        title: ListTile(
+          leading: Icon(Icons.account_circle, color: Colors.green,),
+        ),
+      ),
     );
   }
 }

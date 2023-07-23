@@ -1,6 +1,12 @@
+import 'package:app_co/features/auth/splashScreen.dart';
+import 'package:app_co/manager/getXControllers/services.dart';
+import 'package:app_co/routes.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
-void main() {
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await initServices();
   runApp(const MyApp());
 }
 
@@ -9,15 +15,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text(
-            'XTeam',
-            style: TextStyle(fontSize: 40),
-          ),
-        ),
+    return GetMaterialApp(
+      theme: ThemeData(
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          useMaterial3: true,
       ),
+      getPages: routes,
     );
   }
 }

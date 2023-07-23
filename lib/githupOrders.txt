@@ -1,0 +1,25 @@
+write these commands in terminal as following:
+
+// to push the changes to be readable for others
+
+//========================================================
+1- git add .
+
+2- git commit -m "ANY COMMENT YOU WANT TO WRITE"
+
+3- git push --all
+//=======================================================
+
+
+
+
+// to get the changes from others
+//======================================================================
+1- git pull --all
+
+*IMPORTANT*
+IF there is an errors after getting or cloning -> write in terminal :
+
+1- flutter pub get
+
+//======================================================================
