@@ -1,5 +1,9 @@
+import 'package:app_co/utils/colors.dart';
 import 'package:app_co/utils/styles.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+
+import 'storyReplyComponents/storyReplySheet.dart';
 
 class StoryBottomReplyButton extends StatelessWidget {
   const StoryBottomReplyButton({super.key});
@@ -27,7 +31,7 @@ class StoryBottomReplyButton extends StatelessWidget {
             ),
           ],
         ),
-        onTap: () {},
+        onTap: () => storyReplySheet(context)
       ),
     );
   }

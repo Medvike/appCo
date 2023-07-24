@@ -10,12 +10,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce0f1e4a-53d6-4a03-8bcb-43e992a37e69" name="Changes" comment="Test pushing to Taha's branch">
+      <change afterPath="$PROJECT_DIR$/assets/images/w2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/wallPaper1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/showStoryBottomSheet.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyReplyComponents/replySheetCom/replySendButton.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyReplyComponents/replySheetCom/replyTextField.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyReplyComponents/storyReplySheet.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyGestureParent.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/auth/splashScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/auth/splashScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/story/storyScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBody.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBody.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBar.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyBottomReplyButton.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyBottomReplyButton.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyBottomViewButton.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyBottomViewButton.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyReplyComponents/storyReplySheet.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyReplyComponents/storyReplySheetComponents/greyBackButton.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyReplyComponents/storyReplySheetComponents/storyReplyListChild.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyViewComponents/storyViewSheet.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyViewComponents/storyViewSheet.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/images.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/images.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

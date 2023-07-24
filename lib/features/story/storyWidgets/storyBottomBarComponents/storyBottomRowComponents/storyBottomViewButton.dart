@@ -20,7 +20,7 @@ class StoryBottomViewButton extends StatelessWidget {
             Text("View", style: MyStyles.style15.copyWith(color: Colors.white), textAlign: TextAlign.center,),
           ],
         ),
-        onTap: ()=>storyReplySheet(context),
+        onTap: ()=>storyViewSheet(context),
       ),
     );
   }

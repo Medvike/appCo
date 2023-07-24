@@ -8,13 +8,11 @@ class StoryBottomBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Expanded(
-      child: Container(
-        margin: EdgeInsets.symmetric(horizontal: 10),
-        width: Get.width,
-        //color: Colors.white,
-        child: StoryBottomBarActionRow()
-      ),
+    return  Container(
+      margin: EdgeInsets.symmetric(horizontal: 10),
+      width: Get.width,
+      //color: Colors.white,
+      child: StoryBottomBarActionRow()
     );
   }
 }

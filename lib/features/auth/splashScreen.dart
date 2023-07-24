@@ -1,3 +1,5 @@
+import 'package:app_co/features/story/showStoryBottomSheet.dart';
+import 'package:app_co/features/story/storyScreen.dart';
 import 'package:app_co/manager/getXControllers/stringRoutes.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -23,7 +25,7 @@ class SplashScreen extends StatelessWidget {
               width: 200,
               height: 40,
               child: ElevatedButton.icon(onPressed: (){
-                Get.toNamed(AppStringRoutes.storyScreen, parameters: {"story" : "me"});
+                showStoryBottomSheet(context, "me");
               }, label: Text("My story"), icon: Icon(Icons.arrow_forward_ios)),
             ),
             SizedBox(height: 40,),
@@ -31,7 +33,8 @@ class SplashScreen extends StatelessWidget {
               width: 200,
               height: 40,
               child: ElevatedButton.icon(onPressed: (){
-                Get.toNamed(AppStringRoutes.storyScreen, parameters: {"story" : "Lina"});
+
+                showStoryBottomSheet(context, "Lina");
               }, label: Text("Lina Story"), icon: Icon(Icons.arrow_forward_ios)),
             ),
           ],

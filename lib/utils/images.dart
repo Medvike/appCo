@@ -23,7 +23,7 @@ class MyImages{
 
   static const String imagesRoot = "assets/images";
 
-  static const String storyLocalImage = "$imagesRoot/storyImg.PNG";
+  static const String storyLocalImage = "$imagesRoot/w2.png";
 
 
 }

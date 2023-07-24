@@ -5,15 +5,19 @@ import 'package:get/get.dart';
 import 'storyViewSheetComponents/greyBackButton.dart';
 import 'storyViewSheetComponents/storyViewListChild.dart';
 
-storyReplySheet(BuildContext context) {
-  showBottomSheet(
+storyViewSheet(BuildContext context) {
+  showModalBottomSheet(
+    isDismissible: false,
+    isScrollControlled: true,
+    enableDrag: true,
+    showDragHandle: true,
     context: context,
     builder: (context) {
       return Container(
-        height: Get.height / 2.6,
+        height: Get.height / 2.3,
         child: Column(
           children: [
-            StoryViewGreyButton(),
+           // StoryViewGreyButton(),
             SizedBox(
               height: 10,
             ),

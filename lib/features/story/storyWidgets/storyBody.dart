@@ -8,9 +8,9 @@ class StoryBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Expanded(
-      flex: 10,
+      flex: 8,
       child: Container(
-        margin: EdgeInsets.symmetric(vertical: 70),
+        margin: EdgeInsets.symmetric(vertical: 50),
         child: Image(
           image: AssetImage(
               MyImages.storyLocalImage
