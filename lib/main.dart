@@ -20,13 +20,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: MyColors.green),
           useMaterial3: true,
-        fontFamily: "Inter"
+          fontFamily: "Inter"
       ),
       getPages: routes,
     );
   }
 }
-
-//zon
-// TODO: hi
-// TODO: hello
