@@ -1,4 +1,3 @@
-import 'package:app_co/features/chat/user_chats_screen.dart';
 import 'package:app_co/manager/getXControllers/services.dart';
 import 'package:app_co/routes.dart';
 import 'package:app_co/utils/colors.dart';
@@ -16,8 +15,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: UserChatsScreen(),
+    return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+          colorScheme: ColorScheme.fromSeed(seedColor: MyColors.green),
+          useMaterial3: true,
+          fontFamily: "Inter"
+      ),
+      getPages: routes,
     );
   }
 }
