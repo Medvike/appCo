@@ -1,4 +1,4 @@
-class MyImages {
+class MySvg {
   static const blackGirl = 'assets/svgs/black_girl_taking_selfie.svg';
 
   static const computer =
@@ -16,4 +16,14 @@ class MyImages {
   
   static const voiceMessage = 'assets/svgs/voice_message.svg';
   //static const none = 'assets/svgs/.svg';
+}
+
+
+class MyImages{
+
+  static const String imagesRoot = "assets/images";
+
+  static const String storyLocalImage = "$imagesRoot/w2.png";
+
+
 }

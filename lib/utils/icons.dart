@@ -14,8 +14,12 @@ class MyIcons {
   static const share = 'assets/svgs/share_icon.svg';
 
   static const status = 'assets/svgs/status_icon.svg';
-  
+
   static const video = 'assets/svgs/video_icon.svg';
-  
+
+  static const search = 'assets/svgs/search_icon.svg';
+
+  static const missedCall = 'assets/svgs/missed_call_icon.svg';
+
   //static const none = 'assets/svgs/.svg';
 }

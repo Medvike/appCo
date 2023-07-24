@@ -10,6 +10,10 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Flutter Plugins" level="project" />
     <orderEntry type="library" name="Dart SDK" level="project" />
+<<<<<<< HEAD
+=======
+    <orderEntry type="library" name="Flutter Plugins" level="project" />
+>>>>>>> cadc54fc0cde605e2228b6feccefb59f06071b07
     <orderEntry type="library" name="Dart Packages" level="project" />
   </component>
 </module>
