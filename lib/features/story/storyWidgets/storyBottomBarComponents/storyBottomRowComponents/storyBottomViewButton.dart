@@ -1,7 +1,7 @@
 import 'package:app_co/utils/styles.dart';
 import 'package:flutter/material.dart';
 
-import 'storyReplyComponents/storyReplySheet.dart';
+import 'storyViewComponents/storyViewSheet.dart';
 
 class StoryBottomViewButton extends StatelessWidget {
   const StoryBottomViewButton({super.key});

@@ -1,13 +1,13 @@
 import 'package:app_co/utils/styles.dart';
 import 'package:flutter/material.dart';
 
-class StoryReplyListChild extends StatelessWidget {
+class StoryViewListChild extends StatelessWidget {
   final int index;
   final String name;
   final String watchTime;
   final Color profileColor;
   final bool shared;
-  const StoryReplyListChild({super.key, required this.index, required this.name, required this.watchTime, required this.profileColor, required this.shared});
+  const StoryViewListChild({super.key, required this.index, required this.name, required this.watchTime, required this.profileColor, required this.shared});
 
   @override
   Widget build(BuildContext context) {
