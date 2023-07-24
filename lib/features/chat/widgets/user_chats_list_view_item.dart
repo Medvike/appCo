@@ -66,7 +66,7 @@ class UserChatsListViewItemWidget extends StatelessWidget {
                     closingTime,
                     style: MyStyles.style20.copyWith(color: MyColors.grey),
                   ),
-                  const Spacer(),
+                  SizedBox(height: height * .018),
                   SvgPicture.asset(
                     MyIcons.missedCall,
                     width: width * .075,
