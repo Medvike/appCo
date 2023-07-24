@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'search_bar_widget.dart';
 import 'custom_app_bar.dart';
 
-class ChatScreenBody extends StatelessWidget {
-  const ChatScreenBody({Key? key}) : super(key: key);
+class UserChatsScreenBody extends StatelessWidget {
+  const UserChatsScreenBody({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -254,6 +254,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "swipe_widget",
+      "rootUri": "file:///C:/Users/DELL/AppData/Local/Pub/Cache/hosted/pub.dev/swipe_widget-0.0.2+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
       "name": "term_glyph",
       "rootUri": "file:///C:/Users/DELL/AppData/Local/Pub/Cache/hosted/pub.dev/term_glyph-1.2.1",
       "packageUri": "lib/",
@@ -320,7 +326,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-07-24T19:42:26.296631Z",
+  "generated": "2023-07-24T20:44:22.513013Z",
   "generator": "pub",
   "generatorVersion": "3.0.6"
 }

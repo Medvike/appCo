@@ -44,7 +44,7 @@ class CustomAppBar extends StatelessWidget {
                   function: () {},
                   icon: MyIcons.profile,
                   color: Colors.black,
-                  position: 48,
+                  position: width *.11,
                 ),
               ],
             ),
