@@ -10,21 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="420046ce-1851-4256-ab64-c06b94d8abf3" name="Changes" comment="Test pushing to Taha's branch">
-      <change afterPath="$PROJECT_DIR$/lib/features/onboarding/onBoardingData/onBoardingData.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/video1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBodyTypes/storyPictureBody.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBodyTypes/storyTextBody.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBodyTypes/storyVideoBody.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBodyTypes/storyVideoController/storyVideoController.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/auth/splashScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/auth/splashScreen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/chat/widgets/chat_screen_body.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/chat/widgets/chat_screen_body.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/createAccount/CreateAccount.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/createAccount/CreateAccount.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/onboarding/onboarding.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/onboarding/onboarding.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/otp/otp.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/otp/otp.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/register/MaterialButton.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/register/MaterialButton.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/register/register.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/register/register.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyViewComponents/storyViewSheet.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyViewComponents/storyViewSheet.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/welcome/Welcome.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/welcome/Welcome.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/manager/getXControllers/stringRoutes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/manager/getXControllers/stringRoutes.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/routes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/routes.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBody.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBody.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/images.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/images.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,21 +66,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "io.flutter.reload.alreadyRun": "true",
-    "last_opened_file_path": "C:/XTeam/appCo/assets/images",
-    "settings.editor.selected.configurable": "dart.settings",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Softlaptop/Documents/Xteam/appCo/assets/images&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;dart.settings&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Softlaptop\Documents\Xteam\appCo\assets\images" />
       <recent name="C:\XTeam\appCo\assets\images" />
       <recent name="C:\XTeam\appCo\lib\manager\getXControllers" />
       <recent name="C:\XTeam\appCo\lib" />
@@ -100,7 +99,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ce0f1e4a-53d6-4a03-8bcb-43e992a37e69" name="Changes" comment="" />
+      <changelist id="420046ce-1851-4256-ab64-c06b94d8abf3" name="Changes" comment="Test pushing to Taha's branch" />
       <created>1690086824457</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
