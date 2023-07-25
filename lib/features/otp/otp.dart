@@ -3,10 +3,8 @@ import 'package:app_co/manager/getXControllers/stringRoutes.dart';
 import 'package:app_co/utils/images.dart';
 import 'package:app_co/utils/styles.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import '../createAccount/Custom_Button.dart';
-import '../register/register.dart';
 import 'controller.dart';
 
 class Otp extends StatelessWidget {
@@ -22,13 +20,13 @@ class Otp extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  SvgPicture.asset(
-                    MySvg.otp,
+                  Image.asset(
+                    MyImages.otp,
                     height: 200,
                   ),
-                  Text('Please Check Your Phone',style: MyStyles.style23,),
-                  Text('We have sent you a Verification Code by Sms',style: MyStyles.style18,),
-                  SizedBox(height: 30,),
+                 const Text('Please Check Your Phone',style: MyStyles.style23,),
+                  const Text('We have sent you a Verification Code by Sms',style: MyStyles.style18,),
+                  const SizedBox(height: 30,),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
@@ -39,7 +37,7 @@ class Otp extends StatelessWidget {
 
                     ],
                   ),
-                  SizedBox(height: 50,),
+                  const SizedBox(height: 50,),
                   Custom_Button(
                       onPressed:  () {
                        Get.offNamed(AppStringRoutes.register);
@@ -48,12 +46,12 @@ class Otp extends StatelessWidget {
                   ),
                   Row(
                     children: [
-                      Text('Dont Receive any Code?',style: MyStyles.style15,),
+                      const Text('Dont Receive any Code?',style: MyStyles.style15,),
                       TextButton(
                           onPressed: (){
 
                           },
-                          child: Text('Resend',style: TextStyle(color: Colors.black),)),
+                          child:const Text('Resend',style: TextStyle(color: Colors.black),)),
                     ],
                   ),
 

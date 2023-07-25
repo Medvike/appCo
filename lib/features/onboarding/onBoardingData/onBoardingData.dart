@@ -7,18 +7,18 @@ class OnBoardingData{
   static List<Introduction> list = [
     Introduction(
       title: 'Chat With Every one',
-      subTitle: 'Your Praivcy Is Save',
-      imageUrl: MySvg.image1,
+      subTitle: 'Your praivcy is save',
+      imageUrl:MyImages.image1
     ),
     Introduction(
       title: 'Video Call',
-      subTitle: 'You Can See Your Loved One and Talk To him ',
-      imageUrl: MySvg.image2,
+      subTitle: 'You can see your loved one and talk to him ',
+      imageUrl: MyImages.image2,
     ),
     Introduction(
         title: 'Receive Money',
-        subTitle: 'Share Your Story With Friends',
-        imageUrl: MySvg.image3
+        subTitle: 'Share your story with friends',
+        imageUrl: MyImages.image3,
     ),
   ];
 
