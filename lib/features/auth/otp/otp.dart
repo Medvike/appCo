@@ -1,4 +1,4 @@
-import 'package:app_co/features/otp/textfield_otp.dart';
+import 'package:app_co/features/auth/otp/textfield_otp.dart';
 import 'package:app_co/utils/images.dart';
 import 'package:app_co/utils/styles.dart';
 import 'package:flutter/material.dart';

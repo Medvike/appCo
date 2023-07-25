@@ -1,8 +1,8 @@
 import 'package:app_co/utils/images.dart';
 import 'package:app_co/utils/styles.dart';
 import 'package:flutter/material.dart';
-import '../createAccount/CreateAccount.dart';
-import '../createAccount/Custom_Button.dart';
+import '../auth/createAccount/CreateAccount.dart';
+import '../auth/createAccount/Custom_Button.dart';
 
 class Welcome extends StatelessWidget {
   const Welcome({Key? key}) : super(key: key);

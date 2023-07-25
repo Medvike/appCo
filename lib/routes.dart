@@ -16,5 +16,4 @@ List<GetPage<dynamic>>? routes = [
   GetPage(name: AppStringRoutes.splashScreen, page:()=> const SplashScreen()),
   GetPage(name: AppStringRoutes.storyScreen, page:()=> const StoryScreen()),
 
-
 ];

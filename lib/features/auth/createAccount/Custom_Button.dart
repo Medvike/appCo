@@ -1,7 +1,6 @@
 import 'package:app_co/utils/styles.dart';
 import 'package:flutter/material.dart';
 
-
 class Custom_Button extends StatelessWidget {
   Custom_Button({Key? key,required this.onPressed, required this.data,}) : super(key: key);
   final void Function()? onPressed;
