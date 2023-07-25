@@ -16,7 +16,6 @@ class Onboarding extends StatelessWidget {
       imageUrl: 'assets/images/image2.png',
     ),
     Introduction(
-
       title: 'Receive Money',
       subTitle: 'Share Your Story With Friends',
       imageUrl: 'assets/images/image3.png',
