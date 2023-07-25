@@ -69,11 +69,7 @@
     },
     {
       "name": "flutter",
-<<<<<<< HEAD
       "rootUri": "file:///C:/flutter_windows_3.10.0-stable/flutter/packages/flutter",
-=======
-      "rootUri": "file:///C:/flutter/packages/flutter",
->>>>>>> cadc54fc0cde605e2228b6feccefb59f06071b07
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -91,21 +87,13 @@
     },
     {
       "name": "flutter_test",
-<<<<<<< HEAD
       "rootUri": "file:///C:/flutter_windows_3.10.0-stable/flutter/packages/flutter_test",
-=======
-      "rootUri": "file:///C:/flutter/packages/flutter_test",
->>>>>>> cadc54fc0cde605e2228b6feccefb59f06071b07
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "flutter_web_plugins",
-<<<<<<< HEAD
       "rootUri": "file:///C:/flutter_windows_3.10.0-stable/flutter/packages/flutter_web_plugins",
-=======
-      "rootUri": "file:///C:/flutter/packages/flutter_web_plugins",
->>>>>>> cadc54fc0cde605e2228b6feccefb59f06071b07
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -154,15 +142,12 @@
     {
       "name": "path",
       "rootUri": "file:///C:/Users/DELL/AppData/Local/Pub/Cache/hosted/pub.dev/path-1.8.3",
-<<<<<<< HEAD
-=======
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "path_parsing",
       "rootUri": "file:///C:/Users/DELL/AppData/Local/Pub/Cache/hosted/pub.dev/path_parsing-1.0.1",
->>>>>>> cadc54fc0cde605e2228b6feccefb59f06071b07
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -246,11 +231,7 @@
     },
     {
       "name": "sky_engine",
-<<<<<<< HEAD
       "rootUri": "file:///C:/flutter_windows_3.10.0-stable/flutter/bin/cache/pkg/sky_engine",
-=======
-      "rootUri": "file:///C:/flutter/bin/cache/pkg/sky_engine",
->>>>>>> cadc54fc0cde605e2228b6feccefb59f06071b07
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -351,11 +332,7 @@
       "languageVersion": "3.0"
     }
   ],
-<<<<<<< HEAD
-  "generated": "2023-07-24T23:02:47.706827Z",
-=======
-  "generated": "2023-07-24T20:44:22.513013Z",
->>>>>>> cadc54fc0cde605e2228b6feccefb59f06071b07
+  "generated": "2023-07-25T00:52:04.788048Z",
   "generator": "pub",
   "generatorVersion": "3.0.6"
 }

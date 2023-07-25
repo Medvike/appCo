@@ -1,18 +1,18 @@
 class MySvg {
-  static const blackGirl = 'assets/svgs/black_girl_taking_selfie.svg';
+  static const image3 = 'assets/svgs/image3.svg';
 
   static const computer =
-      'assets/svgs/Computer_with_the_checkmark_confirming_the_user_is_logged_into_account.svg';
+      'assets/svgs/computer.svg';
 
   static const dialogue = 'assets/svgs/dialogue.svg';
 
-  static const firendsVideoCall = 'assets/svgs/Friends_talking_on_video_call.svg';
+  static const image2 = 'assets/svgs/image2.svg';
 
   static const messaging = 'assets/svgs/Messaging.svg';
 
-  static const smartPhonePassword = 'assets/svgs/Smartphone_password_protection_and_cybersecurity.svg';
+  static const otp = 'assets/svgs/otp.svg';
   
-  static const youngManTexting = 'assets/svgs/young_man_texting_his_significant_other.svg';
+  static const image1 = 'assets/svgs/image1.svg';
   
   static const voiceMessage = 'assets/svgs/voice_message.svg';
   //static const none = 'assets/svgs/.svg';
@@ -24,6 +24,8 @@ class MyImages{
   static const String imagesRoot = "assets/images";
 
   static const String storyLocalImage = "$imagesRoot/w2.png";
+  static const String Group = "assets/images/Group 122.png";
+
 
 
 }
