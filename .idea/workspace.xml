@@ -9,62 +9,18 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f1e4a-53d6-4a03-8bcb-43e992a37e69" name="Changes" comment="Test pushing to Taha's branch">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/assets/svgs/missed_call_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/svgs/search_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/chat/user_chats_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/chat/widgets/custom_app_bar.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/chat/widgets/search_bar_widget.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/chat/widgets/stack_child_widget.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/chat/widgets/user_chats_list_view_item.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/chat/widgets/user_chats_list_view_widget.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/chat/widgets/user_chats_screen_body.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/utils/widgets/profile_picture_widget.dart" afterDir="false" />
->>>>>>> cadc54fc0cde605e2228b6feccefb59f06071b07
+    <list default="true" id="420046ce-1851-4256-ab64-c06b94d8abf3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/features/chat/chat_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/chat/widgets/chat_screen_body.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/chat/widgets/custom_divider_widget.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_co.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app_co.iml" afterDir="false" />
-<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/lib/features/chat/widgets/custom_app_bar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/chat/widgets/custom_app_bar.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/features/onboarding/onboarding.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/onboarding/onboarding.dart" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/lib/features/auth/hi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/chat/hi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/story/hi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/colors.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/colors.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/icons.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/icons.dart" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/assets/images/w2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/wallPaper1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/story/showStoryBottomSheet.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyReplyComponents/replySheetCom/replySendButton.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyReplyComponents/replySheetCom/replyTextField.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyReplyComponents/storyReplySheet.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyGestureParent.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/auth/splashScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/auth/splashScreen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/story/storyScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyScreen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBody.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBody.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBar.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyBottomReplyButton.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyBottomReplyButton.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyBottomViewButton.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyBottomViewButton.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyViewComponents/storyViewSheet.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyViewComponents/storyViewSheet.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/images.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/images.dart" afterDir="false" />
->>>>>>> 54ac1e519b43cdb28cf26ce6847bcdcfcaff8775
->>>>>>> cadc54fc0cde605e2228b6feccefb59f06071b07
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +61,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -114,38 +69,11 @@
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/flutter_windows_3.10.0-stable/appCo-main/appCo&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/XTeam/appCo/assets/images&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;dart.settings&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
-=======
-<<<<<<< HEAD
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
-    <property name="cidr.known.project.marker" value="true" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
-  </component>
-=======
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "io.flutter.reload.alreadyRun": "true",
-    "last_opened_file_path": "C:/XTeam/appCo/assets/images",
-    "settings.editor.selected.configurable": "flutter.settings",
-    "show.migrate.to.gradle.popup": "false"
->>>>>>> cadc54fc0cde605e2228b6feccefb59f06071b07
   }
-}]]></component>
->>>>>>> 54ac1e519b43cdb28cf26ce6847bcdcfcaff8775
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\XTeam\appCo\assets\images" />
@@ -201,7 +129,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
