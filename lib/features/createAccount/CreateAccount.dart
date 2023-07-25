@@ -4,8 +4,8 @@ import '../otp/otp.dart';
 import 'Custom_Button.dart';
 import 'Custom_TextField.dart';
 
-class Create_Account extends StatelessWidget {
-  const Create_Account({Key? key}) : super(key: key);
+class CreateAccount extends StatelessWidget {
+  const CreateAccount({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

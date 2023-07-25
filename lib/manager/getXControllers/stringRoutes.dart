@@ -6,15 +6,21 @@ class AppStringRoutes{
 
   // onBoarding
   static const String onBoarding = "/onBoarding";
+  static const String welcome = "/welcome";
 
 
   // auth
   static const String login = "/login";
   static const String createAccount = "/createAccount";
   static const String verifyCode = "/verifyCode";
+  static const String register = "/register";
 
   // main
   static const String mainScreen = "/mainScreen";
   static const String storyScreen = "/storyScreen";
 
+
+  //chat
+  static const String chatScreen = "/chatScreen";
+  static const String userChatScreen = "/userChatScreen";
 }

@@ -1,5 +1,7 @@
+import 'package:app_co/manager/getXControllers/stringRoutes.dart';
 import 'package:app_co/utils/styles.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 
 class Material_Button extends StatelessWidget {
@@ -19,7 +21,7 @@ class Material_Button extends StatelessWidget {
             //     builder:(context)=> (),
             //   ),
             // );
-
+            Get.offNamed(AppStringRoutes.chatScreen);
           },
           elevation: 5.0,
           color: Color(0xffA0C49E ),

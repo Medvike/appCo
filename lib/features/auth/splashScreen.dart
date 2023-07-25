@@ -25,6 +25,14 @@ class SplashScreen extends StatelessWidget {
               width: 200,
               height: 40,
               child: ElevatedButton.icon(onPressed: (){
+                Get.offNamed(AppStringRoutes.onBoarding);
+              }, label: Text("Go"), icon: Icon(Icons.arrow_forward_ios)),
+            ),
+            SizedBox(height: 100,),
+            SizedBox(
+              width: 200,
+              height: 40,
+              child: ElevatedButton.icon(onPressed: (){
                 showStoryBottomSheet(context, "me");
               }, label: Text("My story"), icon: Icon(Icons.arrow_forward_ios)),
             ),

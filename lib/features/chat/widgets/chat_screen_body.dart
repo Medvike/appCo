@@ -1,7 +1,9 @@
+import 'package:app_co/manager/getXControllers/stringRoutes.dart';
 import 'package:app_co/utils/colors.dart';
 import 'package:app_co/utils/widgets/profile_picture_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:get/get.dart';
 
 import '../../../utils/icons.dart';
 import '../../../utils/styles.dart';
@@ -86,7 +88,9 @@ class ChatScreenBody extends StatelessWidget {
                     ),
                     Spacer(),
                     GestureDetector(
-                      onTap: null,
+                      onTap: (){
+                        Get.toNamed(AppStringRoutes.userChatScreen);
+                      },
                       child: Container(
                         width: width * .134,
                         height: width * .134,
