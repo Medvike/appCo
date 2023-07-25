@@ -28,13 +28,13 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-<<<<<<< HEAD
+
   intro_screen_onboarding_flutter: ^1.0.0
 
-=======
+
   animated_bottom_navigation_bar: ^1.2.0
   cupertino_icons: ^1.0.2
->>>>>>> cadc54fc0cde605e2228b6feccefb59f06071b07
+
   flutter:
     sdk: flutter
   flutter_svg: ^2.0.7
