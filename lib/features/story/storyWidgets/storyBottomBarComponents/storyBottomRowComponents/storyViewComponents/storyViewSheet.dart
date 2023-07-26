@@ -23,14 +23,14 @@ storyViewSheet(BuildContext context) {
             ),
             Expanded(
                 child: ListView.builder(
-                  itemCount: StoryTestData.watched.length,
+                  itemCount: StoryTestData().watched.length,
                   itemBuilder: (context, i) {
                   return StoryViewListChild(
-                  name: StoryTestData.watched[i]['name'],
+                  name: StoryTestData().watched[i]['name'],
                   index: i,
-                  profileColor: StoryTestData.watched[i]['color'],
-                  shared: StoryTestData.watched[i]['shared'],
-                  watchTime: StoryTestData.watched[i]['watch_time'],
+                  profileColor: StoryTestData().watched[i]['color'],
+                  shared: StoryTestData().watched[i]['shared'],
+                  watchTime: StoryTestData().watched[i]['watch_time'],
                 );
               },
             ))

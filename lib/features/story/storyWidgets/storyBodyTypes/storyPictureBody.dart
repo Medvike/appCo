@@ -3,13 +3,14 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class StoryPictureBody extends StatelessWidget {
-  const StoryPictureBody({super.key});
+  final String imgUrl;
+  const StoryPictureBody({super.key, required this.imgUrl});
 
   @override
   Widget build(BuildContext context) {
     return Image(
       image: AssetImage(
-          MyImages.storyLocalImage
+          imgUrl
       ),
       fit: BoxFit.fill,
       width: Get.width,
