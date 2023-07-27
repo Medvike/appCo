@@ -47,7 +47,7 @@ class StoryScreen extends StatelessWidget {
                 children: [
                   StoryUpRow(length: controller.storyLength),
                   StoryBody(type: controller.stories[controller.currentStory]['type'], data: controller.stories[controller.currentStory]['data'],),
-                  Text("Story description", style: MyStyles.style15.copyWith(color: Colors.white),),
+                  Text("${controller.stories[controller.currentStory]['desc']}", style: MyStyles.style15.copyWith(color: Colors.white),),
                   const SizedBox(height: 20,),
                   const StoryBottomBar(),
                   const SizedBox(height: 10,)

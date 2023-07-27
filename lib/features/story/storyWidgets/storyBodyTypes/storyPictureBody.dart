@@ -12,7 +12,7 @@ class StoryPictureBody extends StatelessWidget {
       image: AssetImage(
           imgUrl
       ),
-      fit: BoxFit.fill,
+      //fit: BoxFit.contain,
       width: Get.width,
     );
   }

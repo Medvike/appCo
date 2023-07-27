@@ -26,7 +26,7 @@ class MyImages{
   static const String storyLocalImage = "$imagesRoot/w2.png";
   static const String Group = "assets/images/Group 122.png";
 
-  static const String video = "assets/images/video1.mp4";
+  static const String video = "assets/images/video2.mp4";
 
   static const String computer="assets/images/computer.png";
   static const String otp="assets/images/otp.png";

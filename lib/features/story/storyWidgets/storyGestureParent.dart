@@ -12,6 +12,8 @@ class StoryGestureParent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    bool left = true;
+    bool right = true;
     return GestureDetector(
       child: child,
         onVerticalDragUpdate: (details) {
@@ -22,11 +24,33 @@ class StoryGestureParent extends StatelessWidget {
         Get.parameters['story'] == "me" ? storyViewSheet(context) : storyReplySheet(context);
       }
     },
+        onHorizontalDragStart: (details) {
+          left = true;
+          right = true;
+        },
         onHorizontalDragUpdate: (details) {
-          if(details.delta.direction > 0){
-            //storyTestData.forwardStory();
-          }
+        print(1);
           print(details.delta.direction);
+          if(details.delta.dx < -5){
+            if(left){
+              storyTestData.forwardStory();
+              left = false;
+            }
+          }
+        if(details.delta.dx > 5){
+          if(right){
+            storyTestData.backStory();
+            right = false;
+          }
+        }
+        //   if(details.delta.direction < 0){
+        //   //storyTestData.forwardStory();
+        //   if(right){
+        //     storyTestData.backStory();
+        //     right = false;
+        //   }
+        // }
+
         },
     onDoubleTap: () =>storyTestData.forwardStory()
     );

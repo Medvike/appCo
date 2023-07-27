@@ -16,7 +16,7 @@ class StoryBody extends StatelessWidget {
     return Expanded(
       flex: 8,
       child: Container(
-        margin: const EdgeInsets.symmetric(vertical: 50),
+        //margin: const EdgeInsets.only(top: 50),
         child: type == "text" ? StoryTextBody(text: data, backColor: backColor,)
             : type == "video" ? StoryVideoBody(videoUrl: data,) :
         type == "picture" ? StoryPictureBody(imgUrl: data,) : Container()

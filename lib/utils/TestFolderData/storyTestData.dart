@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 
 abstract class StoryTestAbs extends GetxController{
   forwardStory();
+  backStory();
 }
 class StoryTestData extends StoryTestAbs {
 
@@ -19,6 +20,18 @@ class StoryTestData extends StoryTestAbs {
       print(currentStory);
     }else{
       currentStory = 0;
+      update();
+      Get.back();
+    }
+  }
+  @override
+  backStory() {
+    if(currentStory > 0){
+      currentStory -= 1;
+      update();
+      print(currentStory);
+    }else{
+      currentStory = storyLength - 1;
       update();
       Get.back();
     }
@@ -66,17 +79,20 @@ class StoryTestData extends StoryTestAbs {
   List stories = [
     {
       "type": "video",
-      "data": MyImages.video
+      "data": MyImages.video,
+      "desc" : "video description"
     },
 
     {
       "type": "picture",
       "data": MyImages.storyLocalImage,
+      "desc" : "picture description"
     },
     {
       "type": "text",
       "data": "my text test story data",
-      "bgColor": Colors.green
+      "bgColor": Colors.green,
+      "desc" : "text description"
     }
   ];
 
@@ -97,5 +113,7 @@ class StoryTestData extends StoryTestAbs {
     print("ready");
     super.onReady();
   }
+
+
 
 }

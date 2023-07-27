@@ -14,8 +14,8 @@ class StoryUpRow extends StatelessWidget {
           children: List.generate(length, (i) => Expanded(
             child: AnimatedContainer(
               duration: Duration(milliseconds: 500),
-              margin: EdgeInsets.symmetric(horizontal: 3),
-              height: 5,
+              margin: EdgeInsets.symmetric(horizontal: 2,vertical: 2),
+              height: 3,
               decoration: BoxDecoration(
                   color: i == controller.currentStory ? Colors.green : Colors.white70,
                   borderRadius: BorderRadius.all(Radius.circular(8))
