@@ -1,5 +1,6 @@
 
 
+import 'package:app_co/features/story/emojis/emojisModels/emojisModel.dart';
 import 'package:app_co/features/story/showStoryBottomSheet.dart';
 import 'package:app_co/features/story/storyWidgets/storyAppBarComponents/appBarTitle.dart';
 import 'package:app_co/features/story/storyWidgets/storyAppBarComponents/optionsButton.dart';
@@ -23,6 +24,8 @@ class StoryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     StoryTestData storyTestData = Get.put(StoryTestData());
+    Emojis emojisController = Get.put(Emojis());
+
     return Scaffold(
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
@@ -46,11 +49,12 @@ class StoryScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   StoryUpRow(length: controller.storyLength),
-                  StoryBody(type: controller.stories[controller.currentStory]['type'], data: controller.stories[controller.currentStory]['data'],),
+                  StoryBody(
+                    type: controller.stories[controller.currentStory]['type'], data: controller.stories[controller.currentStory]['data'],),
                   Text("${controller.stories[controller.currentStory]['desc']}", style: MyStyles.style15.copyWith(color: Colors.white),),
                   const SizedBox(height: 20,),
-                  const StoryBottomBar(),
-                  const SizedBox(height: 10,)
+                  StoryBottomBar(storyReact: "${controller.stories[controller.currentStory]['react']}",storyTestData: controller,storyIndex: controller.currentStory),
+                  const SizedBox(height: 10,),
                 ],
               ),
             );

@@ -1,0 +1,51 @@
+ StoryTestData -> will be replaced by the model or class which will recive the data of story
+
+ storyTestData : has a Stories List which contains the essential data that that if it changed must be also changed in whole StoryPart
+
+ a parameter (Get.parameters['story'] = "me") must be defined to determine storyScreen (for me) or (for my friends)
+ it defines in the button which display the StoryScreen
+
+ //----------------------------------========================-------------------------
+
+ StoryScreen:
+    has 2 shapes :
+        1- the shape of the user this is have the view data
+        2- the shape of friends of the user which they are able to react and share the story
+
+    Story screen have two (2) methods of display:
+        1- as a normal screen
+        2- as a bottomSheet -> this what we use in this version
+
+ //----------------------------------========================-------------------------
+
+ Emojis :
+    has a 2 essential files:
+        1- a class which contains the List of reactions and the 2 methods:
+            a. setDefaultLove
+            b. setEmoji
+
+        2- Emoji bottomSheet this is how the reactionsBar is displayed
+
+    The display of emojis has only one method only until now
+
+
+    REACTIONS:
+        how it works:
+            preface:
+
+                Emoji class is working for a single story that means we need to determine which story is shown now
+                Depending on this:
+
+            In detail:
+                Emoji class functions contain:
+                    1- instance form (StoryTestData) to use its (stories) List and get the reaction of this story and also change it
+                    2- an int var for currentStory which is playing to determine the index of the story form (stories) List
+
+                Emoji displayBottom sheet:
+                    has the same data of class functions in addition to ( EmojiController )
+                    That to be used later to change the (StoryBottomEmojiButton) of storyScreen
+
+                    this bottomSheet used in (StoryBottomEmojiButton) LongPress showing the List of reactions
+                    which also using the the (EmojiController) as we said
+
+                A compnation between (StoryTestData) & (EmojiModel)

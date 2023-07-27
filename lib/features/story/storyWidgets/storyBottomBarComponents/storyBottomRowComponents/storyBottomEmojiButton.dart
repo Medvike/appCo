@@ -1,76 +1,46 @@
-import 'package:app_co/features/story/storyWidgets/emojis/emojis.dart';
+
+import 'package:app_co/features/story/emojis/emojisModels/emojisModel.dart';
+import 'package:app_co/features/story/emojis/emojisWidget/emojisBottomSheet.dart';
+import 'package:app_co/utils/TestFolderData/storyTestData.dart';
+
 import 'package:app_co/utils/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class StoryBottomEmojiButton extends StatefulWidget {
-  const StoryBottomEmojiButton({super.key});
-
-  @override
-  State<StoryBottomEmojiButton> createState() => _StoryBottomEmojiButtonState();
-}
-
-class _StoryBottomEmojiButtonState extends State<StoryBottomEmojiButton> {
-
-  String selectedEmoji = Emojis.emojis[2]['data'];
-  bool selected = false;
+class StoryBottomEmojiButton extends StatelessWidget {
+  final StoryTestData storyTestData;
+  final int storyIndex;
+  const StoryBottomEmojiButton({super.key, required this.storyTestData, required this.storyIndex});
 
   @override
   Widget build(BuildContext context) {
     return Expanded(
-      child: Container(
-        decoration: BoxDecoration(
-         // color: Colors.blue
-        ),
-        child: InkWell(
-          overlayColor: MaterialStateColor.resolveWith((states) => Colors.transparent),
-          child: Text(selectedEmoji, textAlign: TextAlign.center, style: TextStyle(fontSize: 30, color: selected ? Colors.red : Colors.grey),),
-          onDoubleTap: (){
-            setState(() {
-             if(selected){
-               selected = false;
-               selectedEmoji = Emojis.emojis[2]['data'];
-             }else{
-               selected = true;
-               selectedEmoji = Emojis.emojis[2]['data'];
-             }
+      child: GetBuilder<Emojis>(
+        builder: (controller) {
+          return Container(
+            decoration: BoxDecoration(
+             // color: Colors.blue
+            ),
+            child: InkWell(
+              overlayColor: MaterialStateColor.resolveWith((states) => Colors.transparent),
+              child: Text(storyTestData.stories[storyIndex]['react'] == "none"
+                  ? controller.emojis[2]['data'] :
+              storyTestData.stories[storyIndex]['react']
+                , textAlign: TextAlign.center, style: TextStyle(fontSize: 30, color: storyTestData.stories[storyIndex]['react'] != "none" ? Colors.red : Colors.white),),
+              onDoubleTap: (){
+                storyTestData.hideEffect();
 
-            });
-          },
-          onLongPress: () {
-            showModalBottomSheet(
-              backgroundColor: Colors.transparent,
-              context: context, builder: (context) {
-              return Container(
-                height: 110,
-                decoration: BoxDecoration(
-                  color: Colors.white.withAlpha(220),
-                  borderRadius: BorderRadius.all(Radius.circular(20))
-                ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: Emojis.emojis.map(
-                          (e) =>
-                              InkWell(
-                                  child: AnimatedContainer(
-                                    duration: Duration(milliseconds: 500),
-                                      child: Text(e['data'], textAlign: TextAlign.center, style: TextStyle(fontSize: 30, color: Colors.red),
-                                      )
-                                  ),
-                                onTap: () {
-                                    setState(() {
-                                      selectedEmoji = e['data'];
-                                      selected = true;
-                                      Get.back();
-                                    });
-                                },
-                              )
-                  ).toList(),
-                ),
-              );
-            },);
-          },
-        ),
+                controller.setDefaultLove(storyTestData, storyIndex);
+                storyTestData.showEffect("str", controller.emojis[2]['data']);
+              },
+              onLongPress: (){
+                storyTestData.hideEffect();
+                showEmojisBottomSheet(context, controller, storyTestData,storyIndex);
+
+              }
+            ),
+          );
+        }
       )
     );
   }

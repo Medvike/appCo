@@ -6,11 +6,19 @@ import 'package:get/get.dart';
 abstract class StoryTestAbs extends GetxController{
   forwardStory();
   backStory();
+  showEffect(String reType, dynamic data);
+  hideEffect();
 }
 class StoryTestData extends StoryTestAbs {
 
   int storyLength = 3;
   int currentStory = 0;
+
+  bool showE = false;
+
+   String reactType = "str";
+   dynamic reactData;
+
 
   @override
   forwardStory(){
@@ -37,39 +45,54 @@ class StoryTestData extends StoryTestAbs {
     }
   }
 
+
+  @override
+  showEffect(String reType, dynamic data){
+    reactType = reType;
+    reactData = data;
+     showE = true;
+      update();
+  }
+
+  @override
+  hideEffect(){
+    showE = false;
+    update();
+  }
+
    List watched = [
     {
       "name": "Ali",
       "watch_time": "11:00",
-      "reaction": "haha",
+      "react": 0,
       "shared": true,
       "color": Colors.blue
     },
     {
       "name": "Inna",
       "watch_time": "12:12",
-      "reaction": "smile",
+      "react": 1,
       "shared": false,
       "color": Colors.orange
     },
     {
       "name": "Sara",
       "watch_time": "11:10",
-      "reaction": "smile",
+      "react": 3,
       "shared": false,
       "color": Colors.grey
     },
     {
       "name": "ahmed",
       "watch_time": "11:20",
-      "reaction": "smile",
+      "react": 2,
       "shared": true,
       "color": Colors.red
     },
     {
       "name": "mohamed",
       "watch_time": "12:20",
-      "reaction": "smile",
+      "react": 1,
       "shared": true,
       "color": Colors.green
     }
@@ -80,19 +103,22 @@ class StoryTestData extends StoryTestAbs {
     {
       "type": "video",
       "data": MyImages.video,
-      "desc" : "video description"
+      "desc" : "video description",
+      "react" : "none"
     },
 
     {
       "type": "picture",
       "data": MyImages.storyLocalImage,
-      "desc" : "picture description"
+      "desc" : "picture description",
+      "react" : "none"
     },
     {
       "type": "text",
       "data": "my text test story data",
       "bgColor": Colors.green,
-      "desc" : "text description"
+      "desc" : "text description",
+      "react" : "none"
     }
   ];
 
@@ -113,6 +139,7 @@ class StoryTestData extends StoryTestAbs {
     print("ready");
     super.onReady();
   }
+
 
 
 

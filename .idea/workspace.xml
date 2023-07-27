@@ -10,19 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="420046ce-1851-4256-ab64-c06b94d8abf3" name="Changes" comment="Test pushing to Taha's branch">
-      <change afterPath="$PROJECT_DIR$/assets/aimed packages.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/video2.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/emojis/emojis.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/emojis/emojisModels/emojisModel.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/emojis/emojisWidget/emojisBottomSheet.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/important details for linking.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/story/shareDialog/storyShareButton.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/features/story/storyScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/emojis/emojis.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBody.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBody.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBodyTypes/storyPictureBody.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBodyTypes/storyPictureBody.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomBarActionsRow.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomBarActionsRow.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyBottomEmojiButton.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyBottomEmojiButton.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyBottomReplyButton.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyBottomReplyButton.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyGestureParent.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyGestureParent.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyUpRow.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyUpRow.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyBottomShareButton.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/story/storyWidgets/storyBottomBarComponents/storyBottomRowComponents/storyBottomShareButton.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/utils/TestFolderData/storyTestData.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/TestFolderData/storyTestData.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/images.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/images.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +76,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Softlaptop/Documents/Xteam/appCo/assets/images&quot;,
@@ -87,6 +92,8 @@
       <recent name="C:\XTeam\appCo\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Softlaptop\Documents\Xteam\appCo\lib\features\story\emojis\emojisModels" />
+      <recent name="C:\Users\Softlaptop\Documents\Xteam\appCo\lib\features\story" />
       <recent name="C:\Taha\Projects\app_co\assets\svgs" />
     </key>
   </component>
