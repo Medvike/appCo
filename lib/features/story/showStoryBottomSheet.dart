@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 // Show story as a bottom sheet
-showStoryBottomSheet(BuildContext context, String story){
+showStoryBottomSheet(BuildContext context, String story, String type){
   Get.parameters['story'] = story;
+  Get.parameters['storyType'] = type;
   showModalBottomSheet(
     context: context,
     isScrollControlled: true,

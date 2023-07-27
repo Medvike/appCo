@@ -1,3 +1,4 @@
+import 'package:app_co/features/onboarding/onboarding.dart';
 import 'package:app_co/features/story/showStoryBottomSheet.dart';
 import 'package:app_co/features/story/storyScreen.dart';
 import 'package:app_co/manager/getXControllers/stringRoutes.dart';
@@ -11,6 +12,7 @@ class SplashScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return  Scaffold(
       body: Center(
         child: Column(
@@ -25,7 +27,9 @@ class SplashScreen extends StatelessWidget {
               width: 200,
               height: 40,
               child: ElevatedButton.icon(onPressed: (){
-                Get.offNamed(AppStringRoutes.onBoarding);
+                //Get.offNamed(AppStringRoutes.onBoarding);
+                Get.off(()=>OnBoarding());
+
               }, label: Text("Go"), icon: Icon(Icons.arrow_forward_ios)),
             ),
             SizedBox(height: 100,),
@@ -33,7 +37,7 @@ class SplashScreen extends StatelessWidget {
               width: 200,
               height: 40,
               child: ElevatedButton.icon(onPressed: (){
-                showStoryBottomSheet(context, "me");
+                showStoryBottomSheet(context, "me", "video");
               }, label: Text("My story"), icon: Icon(Icons.arrow_forward_ios)),
             ),
             SizedBox(height: 40,),
@@ -41,8 +45,15 @@ class SplashScreen extends StatelessWidget {
               width: 200,
               height: 40,
               child: ElevatedButton.icon(onPressed: (){
-
-                showStoryBottomSheet(context, "Lina");
+                showStoryBottomSheet(context, "Lina", "picture");
+              }, label: Text("Lina Story"), icon: Icon(Icons.arrow_forward_ios)),
+            ),
+            SizedBox(height: 40,),
+            SizedBox(
+              width: 200,
+              height: 40,
+              child: ElevatedButton.icon(onPressed: (){
+                showStoryBottomSheet(context, "Lina", "text");
               }, label: Text("Lina Story"), icon: Icon(Icons.arrow_forward_ios)),
             ),
           ],

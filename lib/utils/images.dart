@@ -27,6 +27,17 @@ class MyImages{
   
   static const String Group = "assets/images/Group 122.png";
 
+  static const String video = "assets/images/video2.mp4";
+
+  static const String computer="assets/images/computer.png";
+  static const String otp="assets/images/otp.png";
+  static const String image1="assets/images/image1.png";
+  static const String image2="assets/images/image2.png";
+  static const String image3="assets/images/image3.png";
+  static const String messaging="assets/images/Messaging.png";
+
+
+
 
 
 }

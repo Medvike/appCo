@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 class TextField_Otp extends StatelessWidget {
-  TextField_Otp({Key? key,required this.first,required this.last,required this.controller,}) : super(key: key);
-  bool first;
-  bool last;
-  TextEditingController controller;
+ const TextField_Otp({Key? key,required this.first,required this.last,required this.controller,}) : super(key: key);
+  final bool first;
+  final bool last;
+ final TextEditingController controller;
 
 
   @override
@@ -13,12 +13,12 @@ class TextField_Otp extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         border: Border.all(
-          color: Colors.black,
+          color:const Color(0xffA0C49E),
           width: 1.5,
 
         ),
         borderRadius: BorderRadius.circular(18),
-        color: Color(0xffA0C49E),
+        color:Colors.grey.withOpacity(0.1),
       ),
       child: TextField(
         onChanged:((value){
@@ -33,7 +33,7 @@ class TextField_Otp extends StatelessWidget {
         keyboardType: TextInputType.number,
         inputFormatters: [LengthLimitingTextInputFormatter(1)],
         textAlign: TextAlign.center,
-        style: TextStyle(fontSize: 25),
+        style:const TextStyle(fontSize: 25),
         decoration: InputDecoration(
             border: InputBorder.none,
             constraints: BoxConstraints(
