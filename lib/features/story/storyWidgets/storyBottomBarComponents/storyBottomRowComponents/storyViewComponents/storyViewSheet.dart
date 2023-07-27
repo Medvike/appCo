@@ -7,7 +7,7 @@ import 'storyViewSheetComponents/storyViewListChild.dart';
 
 storyViewSheet(BuildContext context) {
   showModalBottomSheet(
-    isDismissible: false,
+    isDismissible: true,
     isScrollControlled: true,
     enableDrag: true,
     showDragHandle: true,
@@ -23,9 +23,9 @@ storyViewSheet(BuildContext context) {
             ),
             Expanded(
                 child: ListView.builder(
-              itemCount: StoryTestData.watched.length,
-              itemBuilder: (context, i) {
-                return StoryViewListChild(
+                  itemCount: StoryTestData.watched.length,
+                  itemBuilder: (context, i) {
+                  return StoryViewListChild(
                   name: StoryTestData.watched[i]['name'],
                   index: i,
                   profileColor: StoryTestData.watched[i]['color'],

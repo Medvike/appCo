@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 import 'MaterialButton.dart';
 
 
-class Regester extends StatelessWidget {
-  const Regester({Key? key}) : super(key: key);
+class Register extends StatelessWidget {
+  const Register({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

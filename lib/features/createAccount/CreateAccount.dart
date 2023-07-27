@@ -4,8 +4,8 @@ import '../otp/otp.dart';
 import 'Custom_Button.dart';
 import 'Custom_TextField.dart';
 
-class Create_Account extends StatelessWidget {
-  const Create_Account({Key? key}) : super(key: key);
+class CreateAccount extends StatelessWidget {
+  const CreateAccount({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -32,9 +32,10 @@ class Create_Account extends StatelessWidget {
                 height: 20,
               ),
               CustomTextField(
-                  hintText: '+20',
-                  prefixIcon: Icon(Icons.phone, color: Colors.black),
-                  keyboardType: TextInputType.phone),
+                hintText: '+20',
+                prefixIcon: Icon(Icons.phone, color: Colors.black),
+                keyboardType: TextInputType.phone,
+              ),
               SizedBox(
                 height: 60,
               ),
@@ -47,8 +48,7 @@ class Create_Account extends StatelessWidget {
                       ),
                     );
                   },
-                  data: 'DONE'
-              ),
+                  data: 'DONE'),
             ],
           ),
         ),
