@@ -2,15 +2,16 @@
 import 'package:app_co/features/auth/splashScreen.dart';
 import 'package:app_co/features/chat/chat_screen.dart';
 import 'package:app_co/features/chat/user_chats_screen.dart';
-import 'package:app_co/features/createAccount/CreateAccount.dart';
 import 'package:app_co/features/onboarding/onboarding.dart';
-import 'package:app_co/features/otp/otp.dart';
-import 'package:app_co/features/register/register.dart';
 import 'package:app_co/features/story/storyScreen.dart';
 import 'package:app_co/features/welcome/Welcome.dart';
 import 'package:app_co/manager/getXControllers/middelware.dart';
 import 'package:app_co/manager/getXControllers/stringRoutes.dart';
 import 'package:get/get.dart';
+
+import 'features/createAccount/CreateAccount.dart';
+import 'features/otp/otp.dart';
+import 'features/register/register.dart';
 
 
 
@@ -36,6 +37,5 @@ List<GetPage<dynamic>>? routes = [
 
   // story
   GetPage(name: AppStringRoutes.storyScreen, page:()=> const StoryScreen()),
-
 
 ];

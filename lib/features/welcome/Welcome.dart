@@ -2,8 +2,14 @@ import 'package:app_co/manager/getXControllers/stringRoutes.dart';
 import 'package:app_co/utils/images.dart';
 import 'package:app_co/utils/styles.dart';
 import 'package:flutter/material.dart';
+import '../createAccount/CreateAccount.dart';
+
 import 'package:get/get.dart';
+
 import '../createAccount/Custom_Button.dart';
+
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:get/get.dart';
 
 class Welcome extends StatelessWidget {
   const Welcome({Key? key}) : super(key: key);
@@ -32,8 +38,7 @@ class Welcome extends StatelessWidget {
                 onPressed: () {
                   Get.offNamed(AppStringRoutes.createAccount);
                 },
-                data: 'CREATE'
-            ),
+                data: 'CREATE'),
           ],
         ),
       ),

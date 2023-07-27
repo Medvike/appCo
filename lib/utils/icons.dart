@@ -21,5 +21,12 @@ class MyIcons {
 
   static const missedCall = 'assets/svgs/missed_call_icon.svg';
 
+  static const mic = 'assets/svgs/mic_icon.svg';
+
+  static const send = 'assets/svgs/send_icon.svg';
+  
+  static const file = 'assets/svgs/file_icon.svg';
+  
+  //static const none = 'assets/svgs/.svg';
   //static const none = 'assets/svgs/.svg';
 }

@@ -12,7 +12,7 @@ class CustomAppBar extends StatelessWidget {
     required this.userName,
   }) : super(key: key);
 
-  final String userImage,userName;
+  final String userImage, userName;
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class CustomAppBar extends StatelessWidget {
           EdgeInsets.symmetric(horizontal: width * .06, vertical: height * .04),
       child: Row(
         children: [
-          ProfilePictureWidget(imageUrl: userImage,size: .165),
+          ProfilePictureWidget(imageUrl: userImage, size: .165),
           SizedBox(width: width * .045),
           Text(
             userName,
@@ -35,16 +35,18 @@ class CustomAppBar extends StatelessWidget {
             child: Stack(
               alignment: Alignment.centerRight,
               children: [
-                StackChildWidget(
+                CustomIconButton(
                   function: () {},
                   icon: MyIcons.settings,
                   color: MyColors.green,
                 ),
-                StackChildWidget(
-                  function: () {},
-                  icon: MyIcons.profile,
-                  color: Colors.black,
-                  position: 48,
+                Positioned(
+                  right: width * .108,
+                  child: CustomIconButton(
+                    function: () {},
+                    icon: MyIcons.profile,
+                    color: Colors.black,
+                  ),
                 ),
               ],
             ),
@@ -54,4 +56,3 @@ class CustomAppBar extends StatelessWidget {
     );
   }
 }
-

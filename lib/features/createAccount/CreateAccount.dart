@@ -32,9 +32,10 @@ class CreateAccount extends StatelessWidget {
                 height: 20,
               ),
               CustomTextField(
-                  hintText: '+20',
-                  prefixIcon: Icon(Icons.phone, color: Colors.black),
-                  keyboardType: TextInputType.phone),
+                hintText: '+20',
+                prefixIcon: Icon(Icons.phone, color: Colors.black),
+                keyboardType: TextInputType.phone,
+              ),
               SizedBox(
                 height: 60,
               ),
@@ -47,8 +48,7 @@ class CreateAccount extends StatelessWidget {
                       ),
                     );
                   },
-                  data: 'DONE'
-              ),
+                  data: 'DONE'),
             ],
           ),
         ),

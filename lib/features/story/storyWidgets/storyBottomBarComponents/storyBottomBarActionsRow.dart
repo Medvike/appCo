@@ -14,6 +14,19 @@ class StoryBottomBarActionRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    return Row(
+        //mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: Get.parameters['story'] != "me"
+            ? [
+                StoryBottomEmojiButton(),
+                StoryBottomReplyButton(),
+                StoryBottomShareButton()
+              ]
+            : [
+                StoryBottomViewButton(),
+              ]);
+
     return  Row(
       //mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: Get.parameters['story'] != "me" ? [
@@ -27,5 +40,6 @@ class StoryBottomBarActionRow extends StatelessWidget {
         StoryBottomViewButton(),
       ]
     );
+
   }
 }

@@ -3,7 +3,6 @@ import 'package:app_co/utils/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-
 class Material_Button extends StatelessWidget {
   const Material_Button({super.key});
 
@@ -11,7 +10,6 @@ class Material_Button extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-
       children: [
         MaterialButton(
           onPressed: () {
@@ -21,11 +19,11 @@ class Material_Button extends StatelessWidget {
             //     builder:(context)=> (),
             //   ),
             // );
-            Get.offNamed(AppStringRoutes.chatScreen);
+            Get.toNamed(AppStringRoutes.userChatScreen);
           },
           elevation: 5.0,
-          color: Color(0xffA0C49E ),
-          child:  Container(
+          color: Color(0xffA0C49E),
+          child: Container(
             height: 60,
             width: 50,
             child: Center(
@@ -42,18 +40,11 @@ class Material_Button extends StatelessWidget {
         ),
         MaterialButton(
           onPressed: () {
-            // Navigator.pushReplacement(
-            //   context,
-            //   MaterialPageRoute(
-            //     builder:(context)=> (),
-            //   ),
-            // );
-
+            Get.to(AppStringRoutes.mainScreen); //!
           },
           elevation: 5.0,
-          color: Color(0xffA0C49E ),
-
-          child:  Container(
+          color: Color(0xffA0C49E),
+          child: Container(
             height: 60,
             width: 50,
             child: Center(

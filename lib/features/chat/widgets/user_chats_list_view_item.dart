@@ -1,7 +1,10 @@
 // ignore_for_file: deprecated_member_use
 
+import 'package:app_co/features/chat/chat_screen.dart';
+import 'package:app_co/manager/getXControllers/stringRoutes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:get/get.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 import '../../../utils/colors.dart';
@@ -29,7 +32,7 @@ class UserChatsListViewItemWidget extends StatelessWidget {
       begin: 1,
       end: 0.97,
       onTap: () {
-        // Get.to(ChatingScreen(friend: ));
+        Get.to(ChatScreen());
       },
       child: Container(
         margin: const EdgeInsets.only(bottom: 22),
@@ -66,7 +69,7 @@ class UserChatsListViewItemWidget extends StatelessWidget {
                     closingTime,
                     style: MyStyles.style20.copyWith(color: MyColors.grey),
                   ),
-                  SizedBox(height: height * .018),
+                  const Spacer(),
                   SvgPicture.asset(
                     MyIcons.missedCall,
                     width: width * .075,
