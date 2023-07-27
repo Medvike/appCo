@@ -17,7 +17,7 @@ class Register extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset(MySvg.computer,height: 300,),
+              Image.asset(MyImages.computer,height: 300,),
               Text('This number is already registed',style: MyStyles.style23,),
               Text('Do you want to restore the backup?',style: MyStyles.style18,),
               SizedBox(height: 60,),

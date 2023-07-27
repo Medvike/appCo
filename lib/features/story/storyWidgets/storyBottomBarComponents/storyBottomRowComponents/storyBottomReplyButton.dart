@@ -11,7 +11,7 @@ class StoryBottomReplyButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Expanded(
-      flex: 5,
+      flex: 2,
       child: InkWell(
         splashColor: Colors.transparent,
         overlayColor:

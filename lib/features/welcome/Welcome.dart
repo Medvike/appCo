@@ -2,7 +2,7 @@ import 'package:app_co/manager/getXControllers/stringRoutes.dart';
 import 'package:app_co/utils/images.dart';
 import 'package:app_co/utils/styles.dart';
 import 'package:flutter/material.dart';
-import '../createAccount/CreateAccount.dart';
+import 'package:get/get.dart';
 import '../createAccount/Custom_Button.dart';
 
 import 'package:flutter_svg/flutter_svg.dart';
@@ -21,12 +21,12 @@ class Welcome extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text(
+                const Text(
                   'appÇō',
                   style: MyStyles.style40,
                 ),
-                SvgPicture.asset(
-                  MySvg.messaging,
+                Image.asset(
+                  MyImages.messaging,
                   height: 100,
                 ),
               ],
