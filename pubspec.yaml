@@ -43,6 +43,8 @@ dependencies:
   video_player: ^2.7.0
   auto_size_text: ^3.0.0
   flutter_animate: ^4.2.0+1
+  floating_action_bubble: ^1.1.4
+  floating_bottom_navigation_bar: ^1.5.2
 
 dev_dependencies:
   # The "flutter_lints" package below contains a set of recommended lints to
