@@ -18,6 +18,7 @@ class AppStringRoutes{
   // main
   static const String mainScreen = "/mainScreen";
   static const String storyScreen = "/storyScreen";
+  static const String appBottomNavigationBar = "/appBottomNavigationBar";
 
 
   //chat

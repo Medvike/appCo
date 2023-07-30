@@ -19,7 +19,7 @@ class Material_Button extends StatelessWidget {
             //     builder:(context)=> (),
             //   ),
             // );
-            Get.toNamed(AppStringRoutes.userChatScreen);
+            Get.toNamed(AppStringRoutes.appBottomNavigationBar);
           },
           elevation: 5.0,
           color: Color(0xffA0C49E),
@@ -40,7 +40,7 @@ class Material_Button extends StatelessWidget {
         ),
         MaterialButton(
           onPressed: () {
-            Get.to(AppStringRoutes.mainScreen); //!
+            Get.to(AppStringRoutes.mainScreen);
           },
           elevation: 5.0,
           color: Color(0xffA0C49E),

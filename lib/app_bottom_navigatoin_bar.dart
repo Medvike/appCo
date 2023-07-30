@@ -70,7 +70,7 @@ class _AppBottomNavigationBarState extends State<AppBottomNavigationBar> {
 
 var screens = const [
   UserChatsScreen(),
-  Center(child: Text('Archive')),
+  UserChatsScreen(),
   Center(child: Text('Call')),
   Center(child: Text('Video')),
   Center(child: Text('Groups')),

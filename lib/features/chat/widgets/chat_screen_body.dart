@@ -13,7 +13,7 @@ class ChatScreenBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     TextEditingController controller = TextEditingController();
-    List<Map<String, dynamic>> messages = [
+    List<Map<String, dynamic>> testingMessages = [
       {
         'message': 'Hello Ahmed',
         'current_user': true,
@@ -69,11 +69,11 @@ class ChatScreenBody extends StatelessWidget {
                   const UpperSection(),
                   Expanded(
                     child: ListView.builder(
-                      itemCount: messages.length,
+                      itemCount: testingMessages.length,
                       itemBuilder: ((context, index) {
                         return MessageWidget(
-                          currentUser: messages[index]['current_user'],
-                          message: messages[index]['message'],
+                          currentUser: testingMessages[index]['current_user'],
+                          message: testingMessages[index]['message'],
                         );
                       }),
                     ),

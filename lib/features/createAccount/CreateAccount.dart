@@ -11,6 +11,7 @@ class CreateAccount extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        resizeToAvoidBottomInset: false,
         body: Padding(
           padding: const EdgeInsets.all(10),
           child: Column(
@@ -20,25 +21,20 @@ class CreateAccount extends StatelessWidget {
                 MyImages.Group,
                 height: 150,
               ),
-              SizedBox(
-                height: 50,
-              ),
+              const SizedBox(height: 50),
               CustomTextField(
                 hintText: 'Enter Your Name',
-                prefixIcon: Icon(Icons.person_outline, color: Colors.black),
+                prefixIcon:
+                    const Icon(Icons.person_outline, color: Colors.black),
                 keyboardType: TextInputType.text,
               ),
-              SizedBox(
-                height: 20,
-              ),
+              const SizedBox(height: 20),
               CustomTextField(
                 hintText: '+20',
-                prefixIcon: Icon(Icons.phone, color: Colors.black),
+                prefixIcon: const Icon(Icons.phone, color: Colors.black),
                 keyboardType: TextInputType.phone,
               ),
-              SizedBox(
-                height: 60,
-              ),
+              const SizedBox(height: 60),
               Custom_Button(
                   onPressed: () {
                     Navigator.pushReplacement(
