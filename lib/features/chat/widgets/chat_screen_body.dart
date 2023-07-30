@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import '../../../utils/colors.dart';
 import 'chat_screen_upper_section.dart';
 import 'custom_divider_widget.dart';
+import 'message_widget.dart';
 
 class ChatScreenBody extends StatelessWidget {
   const ChatScreenBody({Key? key}) : super(key: key);
@@ -12,6 +13,34 @@ class ChatScreenBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     TextEditingController controller = TextEditingController();
+    List<Map<String, dynamic>> messages = [
+      {
+        'message': 'Hello Ahmed',
+        'current_user': true,
+      },
+      {
+        'message': 'Hello Taha',
+        'current_user': false,
+      },
+      {
+        'message': 'How Are You ?👻',
+        'current_user': true,
+      },
+      {
+        'message': 'Well, What About You ?😉',
+        'current_user': false,
+      },
+      {
+        'message':
+            'Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, Hello, ',
+        'current_user': false,
+      },
+      {
+        'message':
+            'تجربة للكتابة باللغة العربية،تجربة للكتابة باللغة العربية،تجربة للكتابة باللغة العربية،تجربة للكتابة باللغة العربية، ',
+        'current_user': true,
+      },
+    ];
 
     return SingleChildScrollView(
       child: Stack(
@@ -25,7 +54,7 @@ class ChatScreenBody extends StatelessWidget {
             bottom: 0,
             child: Container(
               width: Get.width,
-              height: Get.height * .85,
+              height: Get.height * .88,
               alignment: Alignment.bottomCenter,
               decoration: const BoxDecoration(
                 borderRadius: BorderRadius.only(
@@ -39,7 +68,15 @@ class ChatScreenBody extends StatelessWidget {
                   const CustomDivider(),
                   const UpperSection(),
                   Expanded(
-                    child: Container(),
+                    child: ListView.builder(
+                      itemCount: messages.length,
+                      itemBuilder: ((context, index) {
+                        return MessageWidget(
+                          currentUser: messages[index]['current_user'],
+                          message: messages[index]['message'],
+                        );
+                      }),
+                    ),
                   ),
                   TextingTextField(controller: controller),
                 ],
