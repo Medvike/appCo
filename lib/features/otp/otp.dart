@@ -24,14 +24,10 @@ class Otp extends StatelessWidget {
                     MyImages.otp,
                     height: 200,
                   ),
-                  const Text(
-                    'Please Check Your Phone',
-                    style: MyStyles.style23,
-                  ),
-                  const Text(
-                    'We have sent you a Verification Code by Sms',
-                    style: MyStyles.style18,
-                  ),
+                  const Text('Please Check Your Phone',
+                      style: MyStyles.style23),
+                  const Text('We have sent you a Verification Code by Sms',
+                      style: MyStyles.style18),
                   const SizedBox(height: 30),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
