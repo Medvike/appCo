@@ -32,7 +32,10 @@ class TextingTextField extends StatelessWidget {
                 hintStyle:
                     MyStyles.style18.copyWith(fontWeight: FontWeight.w700),
                 border: InputBorder.none,
-                contentPadding: const EdgeInsets.only(left: 20),
+                contentPadding: EdgeInsets.only(
+                  left: Get.width * .04,
+                  right: Get.width * .02,
+                ),
               ),
             ),
           ),

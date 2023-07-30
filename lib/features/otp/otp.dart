@@ -11,9 +11,9 @@ class Otp extends StatelessWidget {
   const Otp({super.key});
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        body: Center(
+    return Scaffold(
+      body: SafeArea(
+        child: Center(
           child: Padding(
             padding: const EdgeInsets.all(10),
             child: SingleChildScrollView(
@@ -24,43 +24,63 @@ class Otp extends StatelessWidget {
                     MyImages.otp,
                     height: 200,
                   ),
-                 const Text('Please Check Your Phone',style: MyStyles.style23,),
-                  const Text('We have sent you a Verification Code by Sms',style: MyStyles.style18,),
-                  const SizedBox(height: 30,),
+                  const Text('Please Check Your Phone',
+                      style: MyStyles.style23),
+                  const Text('We have sent you a Verification Code by Sms',
+                      style: MyStyles.style18),
+                  const SizedBox(height: 30),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
-                      TextField_Otp(controller:c1,first: true,last: false,),
-                      TextField_Otp(controller:c2 ,first: false,last: false,),
-                      TextField_Otp(controller:c3 ,first: false,last: false,),
-                      TextField_Otp(controller:c4 ,first: false,last: true,),
-
+                      TextField_Otp(
+                        controller: c1,
+                        first: true,
+                        last: false,
+                      ),
+                      TextField_Otp(
+                        controller: c2,
+                        first: false,
+                        last: false,
+                      ),
+                      TextField_Otp(
+                        controller: c3,
+                        first: false,
+                        last: false,
+                      ),
+                      TextField_Otp(
+                        controller: c4,
+                        first: false,
+                        last: true,
+                      ),
                     ],
                   ),
-                  const SizedBox(height: 50,),
+                  const SizedBox(height: 50),
                   Custom_Button(
-                      onPressed:  () {
-                       Get.offNamed(AppStringRoutes.register);
-
-                      }, data: 'Confirm'
+                    onPressed: () {
+                      Get.offNamed(AppStringRoutes.register);
+                    },
+                    data: 'Confirm',
                   ),
                   Row(
                     children: [
-                      const Text('Dont Receive any Code?',style: MyStyles.style15,),
+                      const Text(
+                        'Dont Receive any Code?',
+                        style: MyStyles.style15,
+                      ),
                       TextButton(
-                          onPressed: (){
-
-                          },
-                          child:const Text('Resend',style: TextStyle(color: Colors.black),)),
+                        onPressed: () {},
+                        child: const Text(
+                          'Resend',
+                          style: TextStyle(color: Colors.black),
+                        ),
+                      ),
                     ],
                   ),
-
                 ],
               ),
             ),
           ),
         ),
-
       ),
     );
   }

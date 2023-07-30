@@ -1,4 +1,4 @@
-
+import 'package:app_co/app_bottom_navigatoin_bar.dart';
 import 'package:app_co/features/auth/splashScreen.dart';
 import 'package:app_co/features/chat/chat_screen.dart';
 import 'package:app_co/features/chat/user_chats_screen.dart';
@@ -13,29 +13,36 @@ import 'features/createAccount/CreateAccount.dart';
 import 'features/otp/otp.dart';
 import 'features/register/register.dart';
 
-
-
 List<GetPage<dynamic>>? routes = [
-  
-  GetPage(name: "/", page: ()=>const SplashScreen(), middlewares: [
-    MyMiddleware()
-  ]),
+  GetPage(
+      name: "/",
+      page: () => const SplashScreen(),
+      middlewares: [MyMiddleware()]),
 
   // onBoarding
-  GetPage(name: AppStringRoutes.onBoarding, page:()=> const OnBoarding()),
-  GetPage(name: AppStringRoutes.welcome, page:()=> const Welcome()),
+  GetPage(name: AppStringRoutes.onBoarding, page: () => const OnBoarding()),
+  GetPage(name: AppStringRoutes.welcome, page: () => const Welcome()),
 
   // auth
-  GetPage(name: AppStringRoutes.splashScreen, page:()=> const SplashScreen()),
-  GetPage(name: AppStringRoutes.createAccount, page:()=> const CreateAccount()),
-  GetPage(name: AppStringRoutes.verifyCode, page:()=> const Otp()),
-  GetPage(name: AppStringRoutes.register, page:()=> const Register()),
+  GetPage(name: AppStringRoutes.splashScreen, page: () => const SplashScreen()),
+  GetPage(
+      name: AppStringRoutes.createAccount, page: () => const CreateAccount()),
+  GetPage(name: AppStringRoutes.verifyCode, page: () => const Otp()),
+  GetPage(name: AppStringRoutes.register, page: () => const Register()),
 
   //chat
-  GetPage(name: AppStringRoutes.chatScreen, page:()=> const ChatScreen()),
-  GetPage(name: AppStringRoutes.userChatScreen, page:()=> const UserChatsScreen()),
+  GetPage(name: AppStringRoutes.chatScreen, page: () => const ChatScreen()),
+  GetPage(
+    name: AppStringRoutes.userChatScreen,
+    page: () => const UserChatsScreen(),
+  ),
+
+  //App bottom navigation bar
+  GetPage(
+    name: AppStringRoutes.appBottomNavigationBar,
+    page: () => const AppBottomNavigationBar(),
+  ),
 
   // story
-  GetPage(name: AppStringRoutes.storyScreen, page:()=> const StoryScreen()),
-
+  GetPage(name: AppStringRoutes.storyScreen, page: () => const StoryScreen()),
 ];

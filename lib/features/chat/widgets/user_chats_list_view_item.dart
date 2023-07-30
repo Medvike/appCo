@@ -35,7 +35,7 @@ class UserChatsListViewItemWidget extends StatelessWidget {
         Get.to(ChatScreen());
       },
       child: Container(
-        margin: const EdgeInsets.only(bottom: 22),
+        margin: const EdgeInsets.only(top: 22),
         padding: EdgeInsets.only(left: width * .07, right: 18),
         decoration: BoxDecoration(
           color: Colors.white,

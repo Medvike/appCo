@@ -15,8 +15,8 @@ class UserChatsListViewWidget extends StatelessWidget {
     return Expanded(
       child: Container(
         decoration: BoxDecoration(
-          boxShadow: const[
-             BoxShadow(
+          boxShadow: const [
+            BoxShadow(
               offset: Offset(0, 2),
               color: MyColors.lightGreen,
               blurRadius: 10,
@@ -25,12 +25,12 @@ class UserChatsListViewWidget extends StatelessWidget {
           ],
           color: MyColors.green,
           borderRadius: const BorderRadius.only(
-            topRight:  Radius.circular(40),
-            topLeft:  Radius.circular(40),
+            topRight: Radius.circular(30),
+            topLeft: Radius.circular(30),
           ),
         ),
         child: ListView.builder(
-          itemCount: 4,
+          itemCount: 7,
           padding: EdgeInsets.symmetric(vertical: 24, horizontal: width * .041),
           itemExtent: height * .15,
           itemBuilder: (context, index) {
