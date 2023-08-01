@@ -32,16 +32,6 @@ class _AppBottomNavigationBarState extends State<AppBottomNavigationBar> {
             activeIcon: SvgPicture.asset(MyIcons.archive, color: Colors.black),
           ),
           BottomNavigationBarItem(
-            icon: SvgPicture.asset(MyIcons.call, color: Colors.blueGrey),
-            label: 'Call',
-            activeIcon: SvgPicture.asset(MyIcons.call),
-          ),
-          BottomNavigationBarItem(
-            icon: SvgPicture.asset(MyIcons.video, color: Colors.blueGrey),
-            label: 'Video',
-            activeIcon: SvgPicture.asset(MyIcons.archive, color: Colors.black),
-          ),
-          BottomNavigationBarItem(
             icon: SvgPicture.asset(MyIcons.group, color: Colors.blueGrey),
             label: 'Groups',
             activeIcon: SvgPicture.asset(MyIcons.chat),
@@ -71,8 +61,6 @@ class _AppBottomNavigationBarState extends State<AppBottomNavigationBar> {
 var screens = const [
   UserChatsScreen(),
   UserChatsScreen(),
-  Center(child: Text('Call')),
-  Center(child: Text('Video')),
   Center(child: Text('Groups')),
   StatusScreen(),
 ];
